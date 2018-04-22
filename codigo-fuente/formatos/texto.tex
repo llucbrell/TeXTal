@@ -1,0 +1,40 @@
+% El tamaño de letra genérica se establece en el archivo packages.tex
+% está puesto de inicio a 11pts
+
+% Establece la letra como Helvetica
+% si usa luatex o xetex comenta estas líneas.
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv}
+
+% Descomenta estas líneas si usas luatex o xete
+% Descomenta estas líneas si usas luatex o xetex
+% Esta fórmula de añadir Arial no funciona con Latex
+%\usepackage{fontspec}
+%\setmainfont{Arial}
+
+% Establece los márgenes
+\usepackage[top=3cm, left=3cm, bottom=2cm, right=2cm]{geometry}
+%\usepackage[margin=7.5cm]{geometry}
+
+% Establece el interlineado
+\usepackage{blindtext, setspace}
+\linespread{1.2}
+
+% Establece la distáncia entre párrafos
+\setlength{\parskip}{6pt}
+
+%Se muestra bien pero no en el índic
+%Se muestra bien pero no en el índicee
+%\newcommand{\capitulo}[1]{\chapter{\fontsize{16pt}{5.5cm}\selectfont#1}}
+%\newcommand{\apartado}[1]{\section{\fontsize{14pt}{5.5cm}\selectfont#1}}
+%\newcommand{\subapartado}[1]{\subsection{\fontsize{12cm}{5.5cm}\selectfont#1}}
+
+% Establece el tamaño de la fuente para los diversos títulos
+\usepackage{sectsty}
+%\chapterfont{\fontsize{14pt}{16pt}}
+\sectionfont{\centering\fontsize{14pt}{16pt}}
+\subsectionfont{\hspace{0.1cm}\fontsize{12pt}{14pt}}
+\subsubsectionfont{\large}
+\paragraphfont{\large}
+
+

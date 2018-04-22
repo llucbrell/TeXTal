@@ -1,0 +1,88 @@
+\select@language {spanish}
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Planificaci\IeC {\'o}n del proyecto \\ \relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Donde todo comienza.}}{8}
+\contentsline {chapter}{\numberline {1}Ejemplo}{9}
+\contentsline {section}{\numberline {1.1}Ejemplos de anotaciones a pie de p\IeC {\'a}gina}{9}
+\contentsline {section}{\numberline {1.2}Ejemplos de citas}{12}
+\contentsline {section}{\numberline {1.3}Ejemplo de im\IeC {\'a}genes}{13}
+\contentsline {section}{\numberline {1.4}Ejemplos inserci\IeC {\'o}n de c\IeC {\'o}digo}{24}
+\contentsline {chapter}{\numberline {2}Introducci\IeC {\'o}n}{27}
+\contentsline {section}{\numberline {2.1}Primera secci\IeC {\'o}n}{27}
+\contentsline {section}{\numberline {2.2}Segunda secci\IeC {\'o}n}{27}
+\contentsline {section}{\numberline {2.3}Tercera secci\IeC {\'o}n}{28}
+\contentsline {section}{\numberline {2.4}Cuarta secci\IeC {\'o}n}{29}
+\contentsline {subsection}{\numberline {2.4.1}Primera subsecci\IeC {\'o}n}{30}
+\contentsline {subsection}{\numberline {2.4.2}Segunda subsecci\IeC {\'o}n}{30}
+\contentsline {subsection}{\numberline {2.4.3}Tercera subsecci\IeC {\'o}n}{30}
+\contentsline {chapter}{\numberline {3}Ejemplo}{37}
+\contentsline {section}{\numberline {3.1}Ejemplos de anotaciones a pie de p\IeC {\'a}gina}{37}
+\contentsline {section}{\numberline {3.2}Ejemplos de citas}{40}
+\contentsline {section}{\numberline {3.3}Ejemplo de im\IeC {\'a}genes}{41}
+\contentsline {section}{\numberline {3.4}Ejemplos inserci\IeC {\'o}n de c\IeC {\'o}digo}{52}
+\contentsline {part}{II\hspace {1em}Planificaci\IeC {\'o}n del proyecto \\ \relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Donde todo comienza.}}{55}
+\contentsline {chapter}{\numberline {4}Introducci\IeC {\'o}n}{56}
+\contentsline {section}{\numberline {4.1}Primera secci\IeC {\'o}n}{56}
+\contentsline {section}{\numberline {4.2}Segunda secci\IeC {\'o}n}{56}
+\contentsline {section}{\numberline {4.3}Tercera secci\IeC {\'o}n}{57}
+\contentsline {section}{\numberline {4.4}Cuarta secci\IeC {\'o}n}{58}
+\contentsline {subsection}{\numberline {4.4.1}Primera subsecci\IeC {\'o}n}{59}
+\contentsline {subsection}{\numberline {4.4.2}Segunda subsecci\IeC {\'o}n}{59}
+\contentsline {subsection}{\numberline {4.4.3}Tercera subsecci\IeC {\'o}n}{59}
+\contentsline {chapter}{\numberline {5}Ejemplo}{66}
+\contentsline {section}{\numberline {5.1}Ejemplos de anotaciones a pie de p\IeC {\'a}gina}{66}
+\contentsline {section}{\numberline {5.2}Ejemplos de citas}{69}
+\contentsline {section}{\numberline {5.3}Ejemplo de im\IeC {\'a}genes}{70}
+\contentsline {section}{\numberline {5.4}Ejemplos inserci\IeC {\'o}n de c\IeC {\'o}digo}{81}
+\contentsline {part}{III\hspace {1em}Evaluaci\IeC {\'o}n y conclusiones finales \\ \relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Obteniendo feedback.}}{84}
+\contentsline {chapter}{\numberline {6}Ejemplo}{85}
+\contentsline {section}{\numberline {6.1}Ejemplos de anotaciones a pie de p\IeC {\'a}gina}{85}
+\contentsline {section}{\numberline {6.2}Ejemplos de citas}{88}
+\contentsline {section}{\numberline {6.3}Ejemplo de im\IeC {\'a}genes}{89}
+\contentsline {section}{\numberline {6.4}Ejemplos inserci\IeC {\'o}n de c\IeC {\'o}digo}{100}
+\contentsline {chapter}{\numberline {7}Introducci\IeC {\'o}n}{103}
+\contentsline {section}{\numberline {7.1}Primera secci\IeC {\'o}n}{103}
+\contentsline {section}{\numberline {7.2}Segunda secci\IeC {\'o}n}{103}
+\contentsline {section}{\numberline {7.3}Tercera secci\IeC {\'o}n}{104}
+\contentsline {section}{\numberline {7.4}Cuarta secci\IeC {\'o}n}{105}
+\contentsline {subsection}{\numberline {7.4.1}Primera subsecci\IeC {\'o}n}{106}
+\contentsline {subsection}{\numberline {7.4.2}Segunda subsecci\IeC {\'o}n}{106}
+\contentsline {subsection}{\numberline {7.4.3}Tercera subsecci\IeC {\'o}n}{106}
+\contentsline {chapter}{\numberline {8}Conclusiones}{113}
+\contentsline {section}{\numberline {8.1}Primer vistazo}{113}
+\contentsline {section}{\numberline {8.2}Segundo vistazo}{121}
+\contentsline {part}{IV\hspace {1em}Referencias \\ \relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {Donde encontrar m\IeC {\'a}s.}}{123}
+\contentsline {chapter}{Bibliograf\'{\i }a}{124}
+\contentsline {chapter}{\'{I}ndice de figuras}{125}
+\contentsline {part}{V\hspace {1em}Ap\IeC {\'e}ndices \\ \relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip {M\IeC {\'a}s y m\IeC {\'a}s.}}{127}
+\contentsline {chapter}{\numberline {A}Ejemplos de c\IeC {\'o}digo}{128}
+\contentsline {chapter}{\numberline {B}Licencia de Documento GNU}{129}
+\contentsline {section}{\numberline {B.1}APPLICABILITY AND DEFINITIONS}{129}
+\contentsline {section}{\numberline {B.2}VERBATIM COPYING}{131}
+\contentsline {section}{\numberline {B.3}COPYING IN QUANTITY}{131}
+\contentsline {section}{\numberline {B.4}MODIFICATIONS}{132}
+\contentsline {section}{\numberline {B.5}COMBINING DOCUMENTS}{133}
+\contentsline {section}{\numberline {B.6}COLLECTIONS OF DOCUMENTS}{134}
+\contentsline {section}{\numberline {B.7}AGGREGATION WITH INDEPENDENT WORKS}{134}
+\contentsline {section}{\numberline {B.8}TRANSLATION}{134}
+\contentsline {section}{\numberline {B.9}TERMINATION}{135}
+\contentsline {section}{\numberline {B.10}FUTURE REVISIONS OF THIS LICENSE}{135}
+\contentsline {section}{\numberline {B.11}RELICENSING}{136}
+\contentsline {chapter}{\numberline {C}Licencia GPLv3}{137}
+\contentsline {section}{\numberline {C.1}Definitions}{138}
+\contentsline {section}{\numberline {C.2}Source Code}{139}
+\contentsline {section}{\numberline {C.3}Basic Permissions}{140}
+\contentsline {section}{\numberline {C.4}Protecting Users' Legal Rights From Anti-Circumvention Law}{140}
+\contentsline {section}{\numberline {C.5}Conveying Verbatim Copies}{140}
+\contentsline {section}{\numberline {C.6}Conveying Modified Source Versions}{141}
+\contentsline {section}{\numberline {C.7}Conveying Non-Source Forms.}{141}
+\contentsline {section}{\numberline {C.8}Additional Terms}{143}
+\contentsline {section}{\numberline {C.9}Termination}{144}
+\contentsline {section}{\numberline {C.10}Acceptance Not Required for Having Copies}{144}
+\contentsline {section}{\numberline {C.11}Automatic Licensing of Downstream Recipients}{144}
+\contentsline {section}{\numberline {C.12}Patents}{145}
+\contentsline {section}{\numberline {C.13}No Surrender of Others' Freedom}{146}
+\contentsline {section}{\numberline {C.14}Use with the GNU Affero General Public License}{146}
+\contentsline {section}{\numberline {C.15}Revised Versions of this License}{147}
+\contentsline {section}{\numberline {C.16}Disclaimer of Warranty}{147}
+\contentsline {section}{\numberline {C.17}Limitation of Liability}{147}
+\contentsline {section}{\numberline {C.18}Interpretation of Sections 15 and 16}{148}

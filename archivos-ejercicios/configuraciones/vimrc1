@@ -1,0 +1,56 @@
+"Deteccion de tipo de archivo"
+filetype plugin indent on
+
+" Activa el resaltado de la sintaxis"
+syntax on
+
+" Nos permite jugar con multiples buffers"
+" no salvados, simultaneamente"
+" para no usar tantas tabs"
+set hidden
+
+" Pulsa espacio sin mas y observa por ti mismo"
+set backspace=indent,eol,start
+
+" Activa la numeracion de lineas"
+set number
+
+" Activa la linea visual que nos indica en la "
+" linea en la que nos encontramos"
+set cursorline 
+hi CursorLine guibg=lightgray ctermbg=black ctermfg=red
+
+" Cambiamos el color de la linea de cursor"
+" cuando entramos en el modo insercion"
+autocmd InsertEnter * highlight  CursorLine ctermbg=lightgray ctermfg=red
+
+" Volvemos a cargar el color cuando dejamos el"
+" modo de insercion de texto"
+autocmd InsertLeave * highlight  CursorLine ctermbg=black ctermfg=red
+
+" Establece el esquema de color"
+"colorscheme default"
+
+" Activa el corrector de idioma para castellano"
+" e ingles a la vez, en el mismo documento"
+set spelllang=en,es
+set spell
+
+" Coloca un nuevo caracter de linea en la posicion indicada"
+" de todas las lineas, tambien llamado envoltura de caracteres"
+" Se establece en 20 si se descomenta"
+" set wrapmargin=20 "
+
+" Desactiva los cursores en el modo normal (ESC)"
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Desactiva los cursores en modo Insercion"
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
+

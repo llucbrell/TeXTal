@@ -1,0 +1,44 @@
+\begin{thebibliography}{ARL09}
+
+\bibitem[ARL09]{book:lea-vi}
+Elbert~Hannah Arnold~Robbins and Ian~Linda Lamb.
+\newblock {\em Learning the vi and Vim Editors}.
+\newblock O’Reilly Media, Inc., 7 edition, Diciembre 2009.
+
+\bibitem[BJS04]{Baz}
+M.S. Bazaraa, J.J. Jarvis, and H.D. Sherali.
+\newblock {\em Programación lineal y flujo en redes}.
+\newblock Limusa, 2 edition, 2004.
+
+\bibitem[DW60]{Dan}
+G.B. Dantzig and P.~Wolfe.
+\newblock Decomposition principle for linear programs.
+\newblock {\em Operations Research}, 8:101--111, 1960.
+
+\bibitem[Ló04]{book:vim-ref}
+Joaquín~Ataz López.
+\newblock {\em Vim: Referencia rápida}.
+\newblock Libre, copia digital, 1 edition, Diciembre 2004.
+
+\bibitem[Oua04]{book:vim-boo}
+Steve Oualline.
+\newblock {\em Vim Book}.
+\newblock 2004.
+
+\bibitem[Run09]{book:vim-rec}
+Run Paint~Run Run.
+\newblock {\em Vim Recipes}.
+\newblock Run Paint Press, 1 edition, Diciembre 2009.
+
+\bibitem[Sch07]{book:hac-vim}
+Kim Schulz.
+\newblock {\em Hacking Vim. A cookbook to get the most out of the latest Vim
+  editor}.
+\newblock Published by Packt Publishing Ltd., Mayo 2007.
+
+\bibitem[Vim10]{web:vimgolf}
+VimGolf.
+\newblock Web para practicar vim, 01 2010.
+\newblock \url{http://www.vimgolf.com/}.
+
+\end{thebibliography}

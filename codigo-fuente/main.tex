@@ -1,0 +1,81 @@
+%
+%
+% Cabecera documento para libro o tesis
+% paquetes generales a incluir
+%
+%     comandos a ejecutar para compilar
+%     $ pdflatex formato-libro.tex
+%     $ bibtex formato-libro.aux
+%     $ pdflatex formato-libro.tex
+%  Si fallan las referencias a la bibliografía, volver a compilar %
+%
+% Para cambiar el formato a algo, mirar en directorio formatos
+%
+
+% Empieza el codigo
+\documentclass[11pt,oneside,a4paper, spanish]{book}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inserción de paquetes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./formatos/packages}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inserción de datos personales 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../utiles/datos-proyecto.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Da formato al texto 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./formatos/texto}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inserta el formato de la cabecera y el pie
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./formatos/cab-foot}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Inserta el formato para escribir codig en pdf
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./formatos/code}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Empieza el documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Aquí la portada importada en pdf
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1]{../utiles/portada}}}
+\input{./formatos/portada}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Aquı́ el tı́tulo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./formatos/titulo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Estructura de previos 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../varios/varios-str}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% El ínidice
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Estructura de los capítulos del libro 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{../capitulos/book-str}
+
+
+\end{document}
+
+
+
