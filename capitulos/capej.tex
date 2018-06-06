@@ -225,7 +225,41 @@ Cras imperdiet magna augue, non aliquet purus imperdiet ut. Quisque quam erat, f
 \section{Ejemplos inserción de código}
 Aquí encontrarás ejemplos de formas de insertar código. Escribiendo el código en  el fichero capej.tex e importándo el código de otros ficheros. También se muestran varias formas de formatear el mismo, por favor mira el archivo codigo-fuente/formatos/codigo.tex.
 Cras imperdiet magna augue, non aliquet purus imperdiet ut. Quisque quam erat, faucibus sit amet odio vel, lobortis vehicula orci. Donec et mauris at urna dictum ornare. Etiam tincidunt sem tellus, quis dictum purus fringilla eu. Nulla venenatis sagittis est id tincidunt. Suspendisse ante lorem, euismod et faucibus at, faucibus at elit. Nulla facilisi. Nam lorem dolor, scelerisque in iaculis eu, bibendum eu urna. Vivamus non tempus purus, et\cite{book:vim-ref} lacinia libero. Aliquam at justo non tellus maximus accumsan. Pellentesque tincidunt, erat non venenatis blandit, purus felis pharetra felis, sit amet suscipit tellus enim eget ex. Proin blandit, sapien eget rhoncus rutrum, nulla tortor tristique urna, mollis hendrerit nisl ex vitae est. Duis mollis purus at vestibulum cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut rutrum placerat justo id commodo.
-\begin{lstlisting}[language=C, caption=Ejercio de prueba \cite{web:vimgolf}]
+\subsection{Código desde el mismo archivo}
+
+Cras imperdiet magna augue, non aliquet purus imperdiet ut. Quisque quam erat, faucibus sit amet odio vel, lobortis vehicula orci. Donec et mauris at urna dictum ornare. Etiam tincidunt sem tellus, quis dictum purus fringilla eu. Nulla venenatis sagittis est id tincidunt. Suspendisse ante lorem, euismod et faucibus at, faucibus at elit. Nulla facilisi. Nam lorem dolor, scelerisque in iaculis eu, bibendum eu urna. Vivamus non tempus purus, et\cite{book:vim-ref} lacinia libero. Aliquam at justo non tellus maximus accumsan. Pellentesque tincidunt, erat non venenatis blandit, purus felis pharetra felis, sit amet suscipit tellus enim eget ex. Proin blandit, sapien eget rhoncus rutrum, nulla tortor tristique urna, mollis hendrerit nisl ex vitae est. Duis mollis purus at vestibulum cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut rutrum placerat justo id commodo.
+
+\begin{lstlisting}[language=C,style=no-color-line,commentstyle=\color{mygreen}, caption=Ejercio de prueba \cite{web:vimgolf}]
+#include <stdio.h>
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    printf("Enter two integers: ");
+
+    // Two integers entered by user is stored using scanf() function
+    scanf("%d %d", &firstNumber, &secondNumber);
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Displays sum       
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+
+    return 0;
+}
+\end{lstlisting}
+
+Nullam varius varius magna, sed posuere nulla vulputate vitae. Donec egestas risus vitae metus consectetur, eu vulputate urna vulputate. Integer metus sem, posuere in ultricies sed, euismod id leo. Quisque ullamcorper non turpis sit amet semper. Morbi in sagittis sem. Maecenas porta auctor diam in euismod. Morbi ac mauris eget ante facilisis bibendum. Proin molestie eget lacus non tempus. Etiam nunc leo, vulputate eget neque quis, semper lacinia orci. Nulla et lorem nec risus venenatis volutpat vitae quis tortor. Ut odio ligula, laoreet id dolor ultricies, maximus congue dolor. Proin tempor lectus in augue laoreet fringilla. Duis fermentum diam sed luctus facilisis.
+
+
+Vestibulum elementum tellus mollis tempor auctor. Fusce feugiat mollis nibh, scelerisque blandit erat tempus quis. Nulla viverra suscipit sapien, id pharetra eros dictum id. Pellentesque non orci sit amet lacus pretium tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vestibulum nibh a lorem auctor rhoncus. Praesent ullamcorper vulputate luctus. Proin lobortis justo at erat sollicitudin aliquet. Donec ornare luctus bibendum. Nulla scelerisque nisi ante, et ullamcorper lorem imperdiet quis. Vestibulum a enim pulvinar, aliquet leo sit amet, eleifend ex. Pellentesque posuere neque dictum, tempus ex eu, pharetra augue.
+
+SE PUEDE USAR LA INSERCIÓN MANUAL MEDIANTE LISTLISTINGS, TAMBIÉN HAY VARIEDAD DE ESTILOS ASÍ COMO SE PUEDEN PERSONALIZAR EN EL FICHERO  code.tex.
+Para que no se superpongan algunos signos como el símbolo de porcentaje (mira en la anterior inserción) hay que añadir la opción flexiblecolumns. Mira en el código.
+Vestibulum elementum tellus mollis tempor auctor. Fusce feugiat mollis nibh, scelerisque blandit erat tempus quis. Nulla viverra suscipit sapien, id pharetra eros dictum id. Pellentesque non orci sit amet lacus pretium tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vestibulum nibh a lorem auctor rhoncus. Praesent ullamcorper vulputate luctus. Proin lobortis justo at erat sollicitudin aliquet. Donec ornare luctus bibendum. Nulla scelerisque nisi ante, et ullamcorper lorem imperdiet quis. Vestibulum a enim pulvinar, aliquet leo sit amet, eleifend ex. Pellentesque posuere neque dictum, tempus ex eu, pharetra augue.
+
+\begin{lstlisting}[language=C,style=no-color-frame  ,caption=Ejercio de prueba \cite{web:vimgolf}]
 #include <stdio.h>
 int main()
 {
@@ -246,20 +280,159 @@ int main()
 }
 \end{lstlisting}
 
-Nullam varius varius magna, sed posuere nulla vulputate vitae. Donec egestas risus vitae metus consectetur, eu vulputate urna vulputate. Integer metus sem, posuere in ultricies sed, euismod id leo. Quisque ullamcorper non turpis sit amet semper. Morbi in sagittis sem. Maecenas porta auctor diam in euismod. Morbi ac mauris eget ante facilisis bibendum. Proin molestie eget lacus non tempus. Etiam nunc leo, vulputate eget neque quis, semper lacinia orci. Nulla et lorem nec risus venenatis volutpat vitae quis tortor. Ut odio ligula, laoreet id dolor ultricies, maximus congue dolor. Proin tempor lectus in augue laoreet fringilla. Duis fermentum diam sed luctus facilisis.
-
-
 Vestibulum elementum tellus mollis tempor auctor. Fusce feugiat mollis nibh, scelerisque blandit erat tempus quis. Nulla viverra suscipit sapien, id pharetra eros dictum id. Pellentesque non orci sit amet lacus pretium tempor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris vestibulum nibh a lorem auctor rhoncus. Praesent ullamcorper vulputate luctus. Proin lobortis justo at erat sollicitudin aliquet. Donec ornare luctus bibendum. Nulla scelerisque nisi ante, et ullamcorper lorem imperdiet quis. Vestibulum a enim pulvinar, aliquet leo sit amet, eleifend ex. Pellentesque posuere neque dictum, tempus ex eu, pharetra augue.
+
+PUEDES AÑADIR MÁS PALABRAS RESERVADAS PARA SER MARCADAS CON EL PARÁMETRO MOREKEYWORDS.
+
+\begin{lstlisting}[language=C,morekeywords={scanf, printf},style=no-color ,caption=Ejercio de prueba \cite{web:vimgolf}]
+#include <stdio.h>
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    printf("Enter two integers: ");
+
+    // Two integers entered by user is stored using scanf() function
+    scanf("%d %d", &firstNumber, &secondNumber);
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Displays sum      
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+
+    return 0;
+}
+\end{lstlisting}
+
+
 
 Cras interdum porttitor erat, ac ullamcorper turpis convallis ut. Pellentesque at eros non mi varius tristique. Quisque molestie mollis velit, sed accumsan purus. Maecenas a metus justo. Nunc accumsan scelerisque velit, eget convallis nulla vulputate eu. Nunc porta augue id feugiat mattis. Aenean porttitor dui vel ipsum tempor, et aliquam purus luctus. Morbi quis quam semper, sollicitudin odio vitae, commodo nulla. Ut quam risus, pretium quis nibh ut, posuere aliquam sem. Quisque ut ligula eu enim suscipit dapibus. Donec mattis nisi commodo, tristique tellus pharetra, rhoncus metus. Ut finibus metus sed mauris sollicitudin luctus. Suspendisse vel odio gravida lectus auctor rutrum. Phasellus scelerisque sem ut diam pharetra ultricies.
 
+\noindent\begin{minipage}{.45\textwidth}
+	\begin{lstlisting}[caption=comparativa 1,style=colorBB, style=no-color-line, language=C]{Name}
+#include <stdio.h>
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    printf("Enter two integers: ");
+
+    // Two integers entered by user is stored using scanf() function
+    scanf("%d %d", &firstNumber, &secondNumber);
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Displays sum      
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+
+    return 0;
+}	\end{lstlisting}
+\end{minipage}\hfill
+\begin{minipage}{.45\textwidth}
+	\begin{lstlisting}[caption=comparativa 2,style=colorBB, style=no-color-line, language=Python]{Name}
+	#!/usr/bin/python
+
+	var = 100
+	if ( var == 100 ) : print "Value of expression is 100"
+	print "Good bye!"
+	\end{lstlisting}
+\end{minipage}
+
+Cras interdum porttitor erat, ac ullamcorper turpis convallis ut. Pellentesque at eros non mi varius tristique. Quisque molestie mollis velit, sed accumsan purus. Maecenas a metus justo. Nunc accumsan scelerisque velit, eget convallis nulla vulputate eu. Nunc porta augue id feugiat mattis. Aenean porttitor dui vel ipsum tempor, et aliquam purus luctus. Morbi quis quam semper, sollicitudin odio vitae, commodo nulla. Ut quam risus, pretium quis nibh ut, posuere aliquam sem. Quisque ut ligula eu enim suscipit dapibus. Donec mattis nisi commodo, tristique tellus pharetra, rhoncus metus. Ut finibus metus sed mauris sollicitudin luctus. Suspendisse vel odio gravida lectus auctor rutrum. Phasellus scelerisque sem ut diam pharetra ultricies.
+
+\noindent\begin{minipage}{.45\textwidth}
+	\begin{lstlisting}[caption=comparativa 1, style=colorBB, style=colorA-frameround,frame=tlrb, language=C]{Name}
+#include <stdio.h>
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    printf("Enter two integers: ");
+
+    // Two integers entered by user is stored using scanf() function
+    scanf("%d %d", &firstNumber, &secondNumber);
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Displays sum      
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+
+    return 0;
+}	\end{lstlisting}
+\end{minipage}\hfill
+\begin{minipage}{.45\textwidth}
+	\begin{lstlisting}[caption=comparativa 2,style=colorBB, style=colorA-frameround, frame=tlrb , language=C]{Name}
+#include <stdio.h>
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    printf("Enter two integers: ");
+
+    // Two integers entered by user is stored using scanf() function
+    scanf("%d %d", &firstNumber, &secondNumber);
+
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+
+    // Displays sum      
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+
+    return 0;
+	\end{lstlisting}
+\end{minipage}
+
+
 Ut id lectus ex. Vivamus nec elementum est, a placerat nisl. Vestibulum lacinia, magna eget mollis egestas, felis odio sodales nulla, nec finibus nunc tellus ut est. Nam venenatis aliquam porttitor. In rutrum ex et eros pulvinar, finibus hendrerit dolor rutrum. Donec faucibus lacus id risus scelerisque, eget accumsan purus volutpat. In eget sagittis sem, eu ornare justo.
-\lstset{style=color2}
-\lstinputlisting [caption=Otro ejercicio de código, label=cod:config] {../archivos-ejercicios/configuraciones/vimrc1}
+
+\subsection{Código desde diferentes archivos}
+SE PUEDE IMPORTAR EL CÓDIGO DESDE ARCHIVOS, MEJORANDO LA ORGANIZACIÓN, SE LE PUEDEN APLICAR DIFERENTES ESQUEMAS DE COLORES O USAR SÓLO UNO. MIRA EL ARCHIVO code.tex PARA VER LOS ESTILOS TIPICOS Y PERSONALIZARLO A TU GUSTO.
+
+\lstset{style=no-color,inputencoding=utf8/latin1}
+\lstinputlisting [caption=prueba con c sin colores,language=C, label=Ej1] {../archivos-ejercicios/codgo/many.c}
+
+\lstset{style=colorBB,inputencoding=utf8/latin1}
+\lstinputlisting [caption=prueba de importar archivo configurarci\'on, label=Ej1] {../archivos-ejercicios/configuraciones/vimrc1}
+
 Curabitur et dapibus ligula. Donec sit amet mi sit amet mauris malesuada dapibus. Etiam vitae dapibus felis, quis rhoncus lacus. Cras nec lorem in nunc faucibus luctus a id risus. Vivamus rhoncus lobortis elit, in dictum justo rhoncus vel. Vivamus ornare quam vulputate cursus fermentum. Morbi mauris lacus, tincidunt nec bibendum id, vulputate a sapien. Curabitur in purus tincidunt eros laoreet sodales. Mauris imperdiet, lectus vehicula dapibus tristique, ante odio finibus justo, at luctus velit justo ac tellus. Duis convallis tincidunt varius. Nunc sagittis lacinia semper. Donec commodo, nunc vel consectetur blandit, mauris nisi feugiat risus, finibus auctor felis est ut turpis. Quisque ac viverra enim, sit amet mollis purus.
+\lstset{style=colorA-frameround,inputencoding=utf8/latin1}
+\lstinputlisting [caption=c con frame y colores,language=C, label=Ej1] {../archivos-ejercicios/codgo/some.c}
+Curabitur et dapibus ligula. Donec sit amet mi sit amet mauris malesuada dapibus. Etiam vitae dapibus felis, quis rhoncus lacus. Cras nec lorem in nunc faucibus luctus a id risus. Vivamus rhoncus lobortis elit, in dictum justo rhoncus vel. Vivamus ornare quam vulputate cursus fermentum. Morbi mauris lacus, tincidunt nec bibendum id, vulputate a sapien. Curabitur in purus tincidunt eros laoreet sodales. Mauris imperdiet, lectus vehicula dapibus tristique, ante odio finibus justo, at luctus velit justo ac tellus. Duis convallis tincidunt varius. Nunc sagittis lacinia semper. Donec commodo, nunc vel consectetur blandit, mauris nisi feugiat risus, finibus auctor felis est ut turpis. Quisque ac viverra enim, sit amet mollis purus.
+SE PUEDE TAMBIÉN AÑADIR CÓDIGO ESPECIFICANDO LAS LÍNEAS DEL ARCHIVO.
+
+\lstset{style=colorA,inputencoding=utf8/latin1}
+\lstinputlisting [caption=selecci\'on de l\'ineas, label=Esto es la etiqueta, language=C, firstline=4, lastline=6] {../archivos-ejercicios/codgo/some.c}
 
 Suspendisse sed eros venenatis, ornare risus eget, ornare sem. Maecenas a arcu vitae nisi eleifend molestie id nec neque. Phasellus ut iaculis neque, at pellentesque est. Nulla et suscipit sem. Integer ac ultrices ligula, sit amet consectetur neque. Etiam nunc nulla, tristique ac dui eu, laoreet placerat sem. Fusce tristique suscipit volutpat. Proin facilisis a erat nec convallis. Donec tempus faucibus porttitor. Morbi tincidunt nec libero vel scelerisque. Nam id ligula quis dolor commodo vestibulum. Aliquam sed fringilla felis. Aliquam dapibus orci nisi. Donec at varius ipsum, non gravida ipsum. Sed ullamcorper lobortis urna id tincidunt.
 
+\lstset{style=colorB, inputencoding=utf8/latin1}
+\lstinputlisting [caption=prueba de python desde archivo, label=Esto es la etiqueta, language=Python] {../archivos-ejercicios/codgo/pex.py}
+
+Suspendisse sed eros venenatis, ornare risus eget, ornare sem. Maecenas a arcu vitae nisi eleifend molestie id nec neque. Phasellus ut iaculis neque, at pellentesque est. Nulla et suscipit sem. Integer ac ultrices ligula, sit amet consectetur neque. Etiam nunc nulla, tristique ac dui eu, laoreet placerat sem. Fusce tristique suscipit volutpat. Proin facilisis a erat nec convallis. Donec tempus faucibus porttitor. Morbi tincidunt nec libero vel scelerisque. Nam id ligula quis dolor commodo vestibulum. Aliquam sed fringilla felis. Aliquam dapibus orci nisi. Donec at varius ipsum, non gravida ipsum. Sed ullamcorper lobortis urna id tincidunt.
+
+\lstset{style=colorB,inputencoding=utf8/latin1}
+\lstinputlisting [caption=codigo en java,  label=Esto es la etiqueta, language=Java] {../archivos-ejercicios/codgo/jva1.java}
+
 Integer suscipit odio ut lobortis porttitor. Praesent ac congue arcu. Suspendisse potenti. In congue odio sed ipsum pretium malesuada. Vestibulum vulputate erat turpis, nec lobortis leo finibus in. Fusce vulputate porttitor auctor. Aenean in euismod mauris. Pellentesque sem nisl, molestie at dui ac, finibus tincidunt nulla. Curabitur a erat sodales mi vehicula mattis at sed nibh. Sed elit enim, finibus eget ex quis, mollis vehicula est. Fusce lectus tellus, elementum a iaculis in, elementum non lectus. Ut eu metus quis orci sollicitudin vehicula ut id dolor. Nulla vestibulum sit amet lectus ac consequat. Nullam dignissim sollicitudin ex, a consectetur dui euismod vel. Ut est lectus, dapibus et vulputate a, rhoncus sit amet odio. Nullam tristique convallis magna sed laoreet.
 
+\lstset{style=colorA, inputencoding=utf8/latin1}
+\lstinputlisting [caption=java con otro marcado de sintaxis, label=Esto es la etiqueta, language=Java] {../archivos-ejercicios/codgo/jva1.java}
+
 Vivamus rhoncus eleifend convallis. Sed finibus maximus diam in varius. Nunc semper diam vel semper condimentum. Mauris ut porta eros, eu luctus mi. Nulla arcu metus, mollis ut euismod et, feugiat ac ex. Donec augue mi, tristique quis nibh at, vehicula dignissim erat. Suspendisse potenti. Fusce vel bibendum ipsum. In fringilla urna orci, sed sodales dui ultricies eu. Cras ultricies leo vitae dolor dictum laoreet. Curabitur eget sapien imperdiet, euismod sem at, suscipit nunc. :
+
+\noindent\begin{minipage}{.45\textwidth}
+
+\lstset{style=colorBB, style=colorA, inputencoding=utf8/latin1}
+\lstinputlisting [caption=comp1, label=Esto es la etiqueta, language=Java] {../archivos-ejercicios/codgo/jva1.java}
+
+\end{minipage}\hfill
+\begin{minipage}{.45\textwidth}
+
+\lstset{style=colorBB, style=colorA, inputencoding=utf8/latin1}
+\lstinputlisting [caption=comp2, label=Esto es la etiqueta, language=Java] {../archivos-ejercicios/codgo/jva1.java}
+
+\end{minipage}
+Suspendisse sed eros venenatis, ornare risus eget, ornare sem. Maecenas a arcu vitae nisi eleifend molestie id nec neque. Phasellus ut iaculis neque, at pellentesque est. Nulla et suscipit sem. Integer ac ultrices ligula, sit amet consectetur neque. Etiam nunc nulla, tristique ac dui eu, laoreet placerat sem. Fusce tristique suscipit volutpat. Proin facilisis a erat nec convallis. Donec tempus faucibus porttitor. Morbi tincidunt nec libero vel scelerisque. Nam id ligula quis dolor commodo vestibulum. Aliquam sed fringilla felis. Aliquam dapibus orci nisi. Donec at varius ipsum, non gravida ipsum. Sed ullamcorper lobortis urna id tincidunt.
