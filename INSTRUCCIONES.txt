@@ -71,15 +71,17 @@ Todos estos archivos se detallan en la siguiente sección.
 Directorio	Archivo		Utilidad
 ----------	-----------	--------
 
-./		book-srt	Orden secuencial de los capítulos y apéndices a incluir. Sirve para poder reordenar con facilidad los capítulos.
+./		book-srt.tex	Orden secuencial de los capítulos y apéndices a incluir. Sirve para poder reordenar con facilidad los capítulos.
 
-./		cap?.tex	Texto del capítulo a incluir, aquí es dónde se puede incluir comandos TEX
+./		pre.tex		Orden secuencial de los capítulos y apéndices a incluir. Sirve para poder reordenar con facilidad los capítulos.
 
-./		apn?.tex	Texto del apéndice a insertar en el proyecto. 
+./capitulos	cap?.tex	Texto de cada capítulo a incluir, aquí es dónde se puede incluir comandos TEX
+
+./apndices	apn?.tex	Texto del apéndice a insertar en el proyecto. 
 
 ./		int.tex		Introducción, delante del índice. Activada por defecto.
 
-./		con.tex		Capítulo de conclusiones, colocalo el último en book-str .
+./		con.tex		Capítulo de conclusiones, descomentalo de book-str y añade el texto en un archivo con ese nombre. 
 
 ./		lft.tex		Licencias, delante del índice. Activada por defecto.
 
@@ -87,13 +89,14 @@ Directorio	Archivo		Utilidad
 				
 ./		agr.tex		Agradecimientos, recuerda añadir también o descomentar el archivo dentro de boo-str.
 
-./biblio	libreria.bib	Base de datos de libros,webs,etc., puedes incluir cualquier libro siguiendo editando este fichero siguiendo la estructura de los ya presentes.
+./		libreria.bib	Base de datos de libros,webs,etc., puedes incluir cualquier libro siguiendo editando este fichero siguiendo la estructura de los ya presentes.
 				El programa bibtex se encarga de añadirlos al índice y de insertar las diferentes formas de referenciar los libros.
+
+./		datos.tex	Datos básicos del proyecto, nombre tutor, autor, nombre proyecto. Pon los tuyos.
+
 ./imagenes	*.[png,jpg]	Imágenes a incluir, este directorio está establecido por defecto. Coloca ahí tus imágenes y utiliza el comando includegraphix para añadirlas a tu texto.
 
 ./archivos	*.[java,etc]	Directorio en el que colocar el código para ser incluido a través de los comandos listings.
-
-./		datos		Datos básicos del proyecto, nombre tutor, autor, nombre proyecto. Pon los tuyos.
 
 ./PRY		main.pdf	Pdf que surge como resultado de la compilación de todos los archivos. Lo que presentarás a los profesores.
 
